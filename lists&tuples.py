@@ -27,7 +27,20 @@ shopping_list = ["bread", "chocolate", "avacados", "milk"]
 # print(shopping_list)
 
 # Can we mix data types in a list? Yes
-mixed_list = [1, 2, 3, "one", "two", "three"]
-print(mixed_list)
+# mixed_list = [1, 2, 3, "one", "two", "three"]
+# print(mixed_list)
 
-print(mixed_list[1:3])
+# print(mixed_list[1:3])
+
+
+# Tuples - The difference between Lists and Tuples?
+# Syntax tuples ()
+# Tuples are exactly the same as Lists, but they are INMUTABLE
+
+essential = ("paracetamol", "tooth paste", "tea bags")
+print(essential)
+print(type(essential))
+essential[0] = "cereal"
+print(essential)
+
+# We can apply methods to the tuples also
