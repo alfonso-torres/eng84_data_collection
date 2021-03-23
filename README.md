@@ -11,7 +11,7 @@
 - Syntax [] used to create a list.
 - Indexing a list in Python starts from 0 <br/>
 `shopping_list = ["bread", "chocolate", "avacados", "milk"]` <br/>
-bread is position `0` <br/>
+The position of "bread" is `0` <br/>
   chocolate is position `1` <br/>
   avacados is position `2` <br/>
   milk is position `3` <br/>
@@ -24,3 +24,5 @@ bread is position `0` <br/>
 - Dictionaries use KEY VALUE pairs to save the data
 - The data can be retrieved by its value or the key
 - Syntax dict{}
+
+### *What is sets?* <br/>

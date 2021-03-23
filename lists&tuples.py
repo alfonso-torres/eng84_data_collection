@@ -1,6 +1,6 @@
 # What is a List
 # Lists is commonly used to store the data
-# Lists are MUTEBALE
+# Lists are MUTABLE
 # Syntax [] used to create a list
 
 shopping_list = ["bread", "chocolate", "avacados", "milk"]

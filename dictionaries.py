@@ -26,15 +26,30 @@ dev_ops_student = {
 # print(dev_ops_student.values())
 
 # add "operators" as a value of completed_lessons_names
-dev_ops_student["completed_lessons_name"].append("operators")
-print(dev_ops_student["completed_lessons_name"])
+# dev_ops_student["completed_lessons_name"].append("operators")
+# print(dev_ops_student["completed_lessons_name"])
 
 # change the completed lesson from 3 to 4
-dev_ops_student["completed_lesson"] = 4
-print(dev_ops_student["completed_lesson"])
+# dev_ops_student["completed_lesson"] = 4
+# print(dev_ops_student["completed_lesson"])
 
 # remove the "data types" from completed_lesson_names
 # dev_ops_student["completed_lessons_name"].pop(1)
 # dev_ops_student["completed_lessons_name"].pop(dev_ops_student["completed_lessons_name"].index("data types"))
-dev_ops_student["completed_lessons_name"].remove("data types")
-print(dev_ops_student["completed_lessons_name"])
+# dev_ops_student["completed_lessons_name"].remove("data types")
+# print(dev_ops_student["completed_lessons_name"])
+
+# Sets? The difference is that Sets are unordered
+# They are MUTABLE
+# Syntax {}
+
+# Let's create a set
+
+car_parts = {"wheels", "windows", "doors"}
+print(car_parts)
+print(type(car_parts))
+car_parts.add("seats")
+print(car_parts)
+car_parts.discard("doors")
+print(car_parts)
+# Forzen sets - home work
